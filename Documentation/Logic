@@ -1,0 +1,46 @@
+Analog Clock
+
+i. Hour Hand
+ii. Minute Hand
+iii. Second Hand
+
+Logic:
+
+i. Hour hand
+
+For 12 hours, we rotate 360 degrees
+Therefore for 1 hour = 360/12=30 degrees;
+
+Therefore, for h hours you need to rotate by 30h degrees
+
+But, we also have to take minutes into consideration.
+
+60 minutes = 30 degrees rotation
+1 minute = 30/60 = 1/2 degrees
+For m minutes = m/2 degrees
+
+Therefore for h hours and m minutes= (30h + m/2) degrees rotation
+
+it will move because of the second hand too, but that will be negligible.
+
+ii. Minute Hand
+
+For 60 minutes , we rotate 360 degrees
+Therefore for 1 minute = 6 degrees;
+For m minutes = 6m degrees rotation.
+
+
+We will ignore the effect of seconds hand as it is negligible.
+
+iii. Second Hand
+
+60 seconds = 360 degrees rotation
+1 second = 6 degrees 
+Therefore in s seconds= 6s degrees
+
+Important  Formulae:
+
+Rotation Formulae
+i. Formula 1(Hour hand): (30h +(m/2)) degrees;
+ii. Formula 2(Minute hand): 6m degrees;
+iii. Formula 3(Second hand): 6s degrees;
